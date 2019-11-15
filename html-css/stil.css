@@ -1,0 +1,53 @@
+*{ /*zbog browsera da skine sve pedinge i margine*/
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: aqua;
+    height: 500px;
+    background-image:url(../slike/planina.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /*da bude slika preko celog sajta*/
+    background-attachment: fixed; /*slika mmiruje tekst se pomera*/
+}
+
+h1{
+    margin-bottom: 158px;
+    margin-left: 200px;
+}
+
+p{
+    color: yellow;
+    background-color: lightblue;
+    padding: 80px 0px;
+    text-indent: 100px; /*uvlacenje prve linije*/
+    text-align: justify; /*razvlaci tekst preko ekrana*/
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: 'Pacifico', cursive; /*uvezali smo ga u html/head/ i prrekopirali*/
+}
+
+.naslov{
+    color: chocolate; /*kod klase ide tacka*/
+    letter-spacing: 30px; /*razmak izmedju slova*/
+    text-transform: uppercase; /*sva velika slova*/
+}
+
+.glNaslov{
+    font-size: 60px;
+}
+
+.mNaslov{
+    font-size: 40px;
+}
+
+#glNaslov{
+    color: goldenrod;
+    font-family: 'Shadows Into Light', cursive; /*uvezali smo ga u html/head/ i prrekopirali*/
+}
+
+
+
+
+

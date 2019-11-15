@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forme</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+           <fieldset>
+               <legend>Informacije:</legend>
+            Ime: <input type="text" name="ime" placeholder="Unesite Vase ime" size="40" maxlength="11"> <!--size-koliko da bude dugacko polje, maxlength-koliko moze maksimalno karaktera da se unese u polje-->
+            <br>
+            Prezime: <input type="text" name="prezime" required> <!--required ako ne popunimo polje nece nam se poslati podaci-->
+            <br>
+            Password: <input type="password">
+            <br>
+            Pol: <input type="radio" name="pol" checked>Zenski <input type="radio" name="pol">Muski
+            <!--da bi mogao samo jedno polje da izabere mora name da bude iste vrednosti-->
+            <br>
+            Zelim da me obavestavate putem e-maila: <input type="checkbox">
+            <br>
+            E-mail: <input type="email">
+            <br>
+            Godine: <input type="number" min="1" max="101">
+            <br>
+            Cene: 10<input type="range" min="10" max="100" step="10">100
+            <br>
+            <input type="color">
+            <br>
+            <input type="date">
+            <br>
+            Komentar: <textarea cols="30" rows="5"></textarea>
+            <br>
+            <select>
+                <option>Renault</option>
+                <option selected>Ford</option> <!--stajace kao podrazumevana stavka-->
+                <option>Peugeot</option>
+            </select>
+            <br>
+            <input type="button" value="Posalji">
+            <br>
+            <input type="reset" value="Ponisti">
+            <br>
+            <input type="submit" value="Opet posalji">
+            </fieldset>
+        </form>
+    </body>
+</html>

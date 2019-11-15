@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>domaci3</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+           <fieldset>
+               <legend>Personalne informacije:</legend>
+                   Ime:<br><input type="text"><br>
+                   Prezime:<br><input type="text"><br>
+                   E-mail:<br><input type="email"><br>
+                   Datum pocetka obuke:<input type="date"><br>
+                   Broj pohadjanih kurseva(izmedju 0 i 20):<br>
+                   <input type="number" min="0" max="20"><br>
+                   Odaberite naziv kursa:<br>
+                   <select size="1">
+                       <option>Web dizajn</option>
+                       <option selected>C#</option>
+                       <option>Napredna skola programiranja za decu</option>
+                       <option>Java</option>
+                   </select><br><br>
+                   Da li vam se dopada sadrzaj kursa:
+                   <input type="radio" name="kurs" checked>da
+                   <input type="radio" name="kurs">ne
+                   <br><br>
+                   Pomozite nam da unapredimo kurs koji pohadjate:<br>
+                   <textarea rows="4" cols="50" placeholder="Unesite komentar..."></textarea><br><br>
+                   <input type="submit" value="Potvrdi">
+            </fieldset>
+        </form>
+    </body>
+</html>
